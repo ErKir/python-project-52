@@ -1,7 +1,7 @@
 # from render import views
 from django.urls import path
-from . import views
+from main.views import Index
 
 urlpatterns = [
-    path('', views.index),
+    path('', Index.as_view()),
 ]
