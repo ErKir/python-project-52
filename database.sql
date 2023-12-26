@@ -13,3 +13,12 @@
 --     description varchar(65535),
 --     created_at timestamp NOT NULL
 -- );
+
+
+-- Users
+CREATE TABLE IF NOT EXISTS Users (
+id INTEGER PRIMARY KEY,
+username TEXT NOT NULL,
+fullname TEXT NOT NULL,
+created_at timestamp NOT NULL
+);

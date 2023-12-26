@@ -1,0 +1,33 @@
+{% extends 'main/layout.html' %}
+
+{% load i18n %}
+
+{% block content %}
+<div class="container wrapper flex-grow-1">
+    <h1 class="my-4">Пользователи</h1> 
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Имя пользователя</th>
+                <th>Полное имя</th>
+                <th>Дата создания</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>EzerTigger</td>
+                <td>Фыфа Фуфаy</td>
+                <td>18.12.2023 11:16</td>
+                <td>
+                    <a href="/users/1/update/">Изменить</a>
+                    <br>
+                    <a href="/users/1/delete/">Удалить</a>
+                </td>
+            </tr>  
+        </tbody>
+    </table>
+</div>
+{% endblock %}
