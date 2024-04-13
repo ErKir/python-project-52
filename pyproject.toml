@@ -12,17 +12,17 @@ django = "^5.0"
 dj-database-url = "^2.1.0"
 psycopg2-binary = "^2.9.9"
 gunicorn = "^20.1.0"
-django-bootstrap4 = "^22.3"
-whitenoise = "^6.3.0"
-django-extensions = "^3.2.1"
-django-filter = "^22.1"
-rollbar = "^0.16.3"
+django-bootstrap4 = "^24.1"
+whitenoise = "^6.6.0"
+django-extensions = "^3.2.3"
+django-filter = "^24.4"
+rollbar = "^1.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
-coverage = "^7.0.5"
-ipython = "^8.8.0"
+coverage = "^7.2.7"
+ipython = "^8.23.0"
 
 
 [build-system]
